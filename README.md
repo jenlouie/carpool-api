@@ -36,7 +36,7 @@ npm install npm@latest -g
 **To debug using Visual Studio Code:**
 
 1. In VS Code, bring up the 'Integrated Terminal' ('View' > 'Integrated Terminal').
-2. In the terminal, ensure you're in \carpool-api\ directory..
+2. In the terminal, ensure you're in `\carpool-api\` directory.
 3. Run the app with `node server.js`.
 4. In Debug panel, select 'Attach by Process ID' and 'Start Debugging' (green triangle).
 5. In the dropdown that appears, select the process server.js.
