@@ -19,21 +19,21 @@ Update npm (if already installed):
 npm install npm@latest -g
 ```
 
-To create project:
+**To create project:**
 
 1. `npm init`
 2. Accept defaults for everything except entry point prompt. For this, enter in `server.js`.
 3. `npm install --save express body-parser`
 4. `npm install --save-dev nodemon`
 
-To run locally and test:
+**To run locally and test:**
 
-1. Ensure you're in \carpool-api\ directory.
+1. Ensure you're in the `\carpool-api\` directory.
 2. Fetch dependencies with `npm install`.
 3. Run the server with `node server.js` or `npm run dev` (to run nodemon).
 4. Import the [REST-Postman](https://github.com/jenlouie/REST-Postman) collection to try the requests.
 
-To debug using Visual Studio Code:
+**To debug using Visual Studio Code:**
 
 1. In VS Code, bring up the 'Integrated Terminal' ('View' > 'Integrated Terminal').
 2. In the terminal, ensure you're in \carpool-api\ directory..
