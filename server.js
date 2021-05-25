@@ -5,12 +5,12 @@ const Trip = require('./app/models/trip');
 
 const port = 8000;
 
-app.use(bodyParser.urlencoded({ extended: true }));
-app.use(bodyParser.json());
+app.use(express.urlencoded({ extended: true }));
+app.use(express.json());
 
 // import routes here
 require('./app/routes')(app, {});
 
 app.listen(port, () => {
-  console.log('trips-api is live on ' + port);
+  console.log('carpool-api is live on ' + port);
 });

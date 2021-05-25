@@ -19,13 +19,6 @@ Update npm (if already installed):
 npm install npm@latest -g
 ```
 
-**To create project:**
-
-1. `npm init`
-2. Accept defaults for everything except entry point prompt. For this, enter in `server.js`.
-3. `npm install --save express body-parser`
-4. `npm install --save-dev nodemon`
-
 **To run locally and test:**
 
 1. Ensure you're in the `\carpool-api\` directory.
@@ -42,3 +35,8 @@ npm install npm@latest -g
 5. In the dropdown that appears, select the process server.js.
 6. Make requests using Postman or another tool.
 
+**To create a project:**
+
+1. `npm init`
+2. Accept defaults for everything except entry point prompt. For this, enter in `server.js`.
+3. `npm install --save-dev nodemon`
